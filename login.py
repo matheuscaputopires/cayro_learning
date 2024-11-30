@@ -3,6 +3,15 @@ from token_repo import gerar_token_unico
 
 
 def validar_login(input_name, input_password):
+    """Alguma explicação do método
+
+    Args:
+        input_name (_type_): _description_
+        input_password (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     # If username or password are not informed, return right await
     if not input_name or not input_password:
         return
